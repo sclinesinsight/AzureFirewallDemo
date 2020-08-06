@@ -10,6 +10,8 @@
         },
         "virtualNetworks_VNet_Onprem_name": {
             "value": null
-        }
+        },
+        "Location": {
+            "value": null
     }
 }
