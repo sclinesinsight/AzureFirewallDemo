@@ -32,35 +32,23 @@
                     {
                         "name": "SN-Corp",
                         "properties": {
-                            "addressPrefix": "192.168.1.0/24",
-                            "delegations": [],
-                            "privateEndpointNetworkPolicies": "Enabled",
-                            "privateLinkServiceNetworkPolicies": "Enabled"
+                            "addressPrefix": "192.168.1.0/24"
                         }
                     },
                     {
                         "name": "SN-Onprem",
                         "properties": {
-                            "addressPrefix": "192.168.2.0/24",
-                            "serviceEndpoints": [],
-                            "delegations": [],
-                            "privateEndpointNetworkPolicies": "Enabled",
-                            "privateLinkServiceNetworkPolicies": "Enabled"
+                            "addressPrefix": "192.168.2.0/24"
                         }
                     },
                     {
                         "name": "GatewaySubnet",
                         "properties": {
-                            "addressPrefix": "192.168.0.0/24",
-                            "delegations": [],
-                            "privateEndpointNetworkPolicies": "Enabled",
-                            "privateLinkServiceNetworkPolicies": "Enabled"
+                            "addressPrefix": "192.168.0.0/24"
                         }
                     }
                 ],
-                "virtualNetworkPeerings": [],
-                "enableDdosProtection": false,
-                "enableVmProtection": false
+                "enableDdosProtection": false
             }
         },
         {
@@ -78,25 +66,17 @@
                     {
                         "name": "AzureFirewallSubnet",
                         "properties": {
-                            "addressPrefix": "10.5.0.0/26",
-                            "delegations": [],
-                            "privateEndpointNetworkPolicies": "Enabled",
-                            "privateLinkServiceNetworkPolicies": "Enabled"
+                            "addressPrefix": "10.5.0.0/26"
                         }
                     },
                     {
                         "name": "GatewaySubnet",
                         "properties": {
-                            "addressPrefix": "10.5.1.0/24",
-                            "delegations": [],
-                            "privateEndpointNetworkPolicies": "Enabled",
-                            "privateLinkServiceNetworkPolicies": "Enabled"
+                            "addressPrefix": "10.5.1.0/24"
                         }
                     }
                 ],
-                "virtualNetworkPeerings": [],
-                "enableDdosProtection": false,
-                "enableVmProtection": false
+                "enableDdosProtection": false
             }
         },
         {
@@ -114,17 +94,12 @@
                     {
                         "name": "SN-Workload",
                         "properties": {
-                            "addressPrefix": "10.6.0.0/24",
-                            "delegations": [],
-                            "privateEndpointNetworkPolicies": "Enabled",
-                            "privateLinkServiceNetworkPolicies": "Enabled"
+                            "addressPrefix": "10.6.0.0/24"
                         }
                     }
                 ],
-                "virtualNetworkPeerings": [],
-                "enableDdosProtection": false,
-                "enableVmProtection": false
+                "enableDdosProtection": false
             }
-        },
+        }
     ]
 }
